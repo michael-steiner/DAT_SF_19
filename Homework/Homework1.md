@@ -68,5 +68,7 @@ I wan to sum the value of cost "column".  I used the following commands:
 **sed '1d' cost1.txt  > cost2.txt**  # deletes the first line
 **cat cost2.txt  | awk '{sum+=$1} END {print sum}’**  # sum all vales
 
+The sum is 34500.2
+
 
  
