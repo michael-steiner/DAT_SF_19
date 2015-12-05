@@ -57,7 +57,7 @@ Using **find . -name \*.[ct]sv**, we get the following output.
 My Answer:
 Using **grep -i -r 'dictionary' \* > dictionar_word_count.txt**, followed by **tr ' ' '\n' < dictionar_word_count.txt | grep -c dictionary**. The number of occurrences of the word 'dictionary' (regardless of case) is 5.
 
-4.Optional: Use the the command line to discover something "interesting" about the Chipotle data. The advanced commands below may be helpful to you!
+4. Optional: Use the the command line to discover something "interesting" about the Chipotle data. The advanced commands below may be helpful to you!
 
 My Answer:
 Althoug it isn not very interestign  - it did let me work with sed and awk which I have never used. 
