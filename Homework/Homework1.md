@@ -7,10 +7,16 @@
     
     My Answers:
     The command **head chipotle.tsv** is used to look at the head of the file, and **tail chipotle.tsv** is used to look at the tail. The columns: 
+
     *order_id* is an integer that indicates a unique order. 
-    *quantity* is the number of the particular item which was ordered
+
+    *quantity* is the number of the particular item which was ordered.
+
     *item_name* is the generic type of item
+
     *choice_description* indicates the specific details regarding the ordered item
+
+    *item_price* is the cost of the item
 
 
 
