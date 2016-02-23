@@ -43,11 +43,11 @@ Monday | Wednesday
 1/25: [Decision Trees](#class-12-decision-trees) | 1/27: [Ensembles and Random Forests](#class-13-ensembles-and-random-forests)
 2/1: [Support Vector Machines](#class-14-support-vector-machines) | 2/3: [Dimensionality Reduction & PCA](#class-15-dimensionality-reduction)
 2/8: [Recommender Systems](#class-16-recommender-systems) | 2/10: [Text Processing / NLP](#class-17-text-processing--nlp) <br>**Peer Feedback on Project Drafts Due**
-2/15: **No Class** (President's Day) | 2/17: SQL & Databases <br>**Project Second Draft Due (Optional)**
-2/22: Advanced Topic or Guest Speaker | 2/24: Course Review & Where to Go from Here |
+2/15: **No Class** (President's Day) | 2/17: [Database Technologies](#class-18-database-technologies--sql) <br>**Project Second Draft Due (Optional)**
+2/22: [Pursuing DS Roles & Imbalanced Classes](#class-19-pursuing-data-science-roles--imbalanced-classes) | 2/24: Course Review & Where to Go from Here |
 2/29: **Project Presentations & Project Due** | 3/2: **Project Presentations & Project Due**
 
-_syllabus last updated: 02/16/2016_
+_syllabus last updated: 02/22/2016_
 
 
 
@@ -118,7 +118,7 @@ _syllabus last updated: 02/16/2016_
 ### Class 4: Intro to Machine Learning & Classification with KNN
 
 * Intro to Machine Learning ([slides](slides/04_intro_ml_knn.pdf))
-* Lab: KNN classification with Scikit-learn ([notebook](labs/05_knn_sklearn.ipynb))
+* Lab: KNN classification with Scikit-learn ([notebook](labs/04_knn_sklearn.ipynb))
 
 **ML Resources**:
 * For a more formal, in-depth introduction to machine learning, read section 2.1 (14 pages) of Hastie and Tibshirani's excellent book, [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/). (It's a free PDF download!)
@@ -353,10 +353,10 @@ Thanks to Dave Yerrington for leading this session!
 
 -----
 
-### Class 18: Databases & SQL
+### Class 18: Database Technologies & SQL
 
 * Database Technologies ([slides](slides/18-database-technologies.pdf))
-* Lab: SQL in Action ([notebook](labs/18-not-posted-yet.ipynb))
+* Lab: SQL in Action ([notebook](labs/18-SQL%20and%20Liquor.ipynb))
 
 **Additional Resources**
 * This [GA notebook](https://github.com/podopie/DAT18NYC/blob/master/classes/17-relational_databases.ipynb) provides a shorter introduction to databases and SQL that helpfully contrasts SQL queries with Pandas syntax.
@@ -370,9 +370,17 @@ Thanks to Dave Yerrington for leading this session!
 
 -----
 
-### Class 19: Advanced Topic or Guest Speaker
+### Class 19: Pursuing Data Science Roles & Imbalanced Classes
 
+* Pursuing data science roles, Rocking data science interviews, and related Q&A - Dave Yerrington
+* Advanced Topic: Imbalanced Classes ([slides](slides/19-imbalanced-classes.pdf))
+* Lab: Homework 4 solution walkthrough and Q&A
 
+**Additional Resources**
+* [This post by Jason Brownlee](http://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/) provides an easy-to-understand overview of options for handling imbalanced classes.
+* [This answer on Quora](https://www.quora.com/In-classification-how-do-you-handle-an-unbalanced-training-set) goes into more detail.
+* If you want to go really deep, read this extensive academic paper, [Learning from Imbalanced Data](http://www.ele.uri.edu/faculty/he/PDFfiles/ImbalancedLearning.pdf).
+* Paper on using [Random Forests with Imbalanced Data](http://statistics.berkeley.edu/sites/default/files/tech-reports/666.pdf).
 
 -----
 
